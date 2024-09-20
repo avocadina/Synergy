@@ -1,0 +1,12 @@
+:root {
+    --font-family: "Raleway", sans-serif;
+    --second-family: "GT Walsheim Pro", sans-serif;
+    --third-family: "Montserrat", sans-serif;
+    --font3: "Inter", sans-serif;
+
+    --container-width: 1116px;
+    --container-offset: 15px;
+    --section-gap: 100px;
+
+    --btn-trs: transform 0.3s ease; 
+}

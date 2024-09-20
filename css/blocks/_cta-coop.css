@@ -1,0 +1,50 @@
+.cta-cooperation {
+    margin-top: var(--section-gap);
+    background: url('../../img/cta-coop/bg.png') no-repeat right bottom,
+    #8dff65;
+}
+
+.cta__container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 56px 0;
+}
+
+.cta__heading {
+    padding-right: 116px;
+}
+
+.cta__heading {
+    line-height: 1.1;
+}
+
+.cta__test {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 12px;
+}
+
+.cta-test__tect {
+    margin-bottom: auto;
+}
+
+.cta-test__button {
+    margin-top: auto;
+}
+
+.cta__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.cta__link svg {
+   transition: transform 0.3s ease;
+}

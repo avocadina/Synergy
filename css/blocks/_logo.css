@@ -1,0 +1,16 @@
+.logo {
+    transition: transform 0.65s ease;
+}
+
+.logo svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (any-hover: hover) {
+    .logo:hover {
+        transform: scale(1.05);
+    }
+}

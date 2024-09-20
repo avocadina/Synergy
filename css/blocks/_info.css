@@ -1,0 +1,147 @@
+.info {
+    margin-top: 100px;
+}
+
+.info__list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.info__item {
+    grid-column: 3 span;
+}
+
+.info__item--big {
+    grid-column: 6 span;
+}
+
+.info__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+    height: 100%;
+
+    outline: 2px solid #4d4d56
+}
+
+.info__card--g-lg {
+    gap: 37px;
+}
+
+.info__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info__title {
+    line-height: 129%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.info__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 131%;
+    color: #c4c4d4;
+}
+
+.info__subtitle .title--16 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 131%;
+    color: #c4c4d4;
+}
+
+
+.info__heading--g-sm {
+    gap: 2px;
+}
+
+.info__heading--g-lg {
+    gap: 17px;
+}
+
+.info__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.info__par {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #fff;
+}
+
+.info__item--big .info__card {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info__item--big .info__text {
+    max-width: 45%;
+}
+
+.info__item--big .info__title {
+    width: max-content;
+}
+
+.info__item--big .info__subtitle {
+    max-width: 70%;
+}
+
+.info-item__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ii__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+
+    max-width: 85%;
+}
+
+.ii-item__image {
+    width: 40px;
+    height: 40px;
+}
+
+.ii-item__image svg {
+    display: block;
+    object-fit: contain;
+}
+
+.ii-item__par {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #fff;
+}
+
+.info__card--net {
+    background: url('../../img/info/info-mask1.png') no-repeat center bottom;
+    background-size: cover;
+    padding: 30px 32px 123px 30px;
+}
+
+.info__card--puzzle {
+    background: url('../../img/info/info-mask2.png') no-repeat center bottom;
+    background-size: cover;
+    padding: 30px 30px 247px;
+}
+
+.info__card--head {
+    background: url('../../img/info/info-mask3.png') no-repeat center bottom;
+    background-size: cover;
+    padding: 30px 83px 115px 30px;
+}

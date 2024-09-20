@@ -1,0 +1,89 @@
+.hero {
+ background: 
+ url('../../img/hero/Ellipse\ 21.svg') no-repeat center left,
+ url('../../img/hero/Ellipse\ 47.png') no-repeat top right,
+ url('../../img/hero/Ellipse\ 17.png') no-repeat bottom right,
+ 
+ 
+ url('../../img/hero/Group\ 585.svg') no-repeat top right,
+ url('../../img/hero/background.svg') no-repeat top right,
+ #202023;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 52px;
+    padding-bottom: 85px;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.ht__subtitle {
+    text-transform: uppercase;
+    color: #8dff65;
+}
+
+.ht__title {
+    text-transform: uppercase;
+}
+
+.hero__span--blue {
+    color: #176dee;
+}
+
+.hero__list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    height: 100%;
+}
+
+.hero__item:last-of-type {
+    padding-bottom: 26px;
+}
+
+.hi__svg {
+    padding-top: 12px;
+}
+
+.hi__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.hero__list {
+    animation: 1s ease 0s alternate slideFromLeft;
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    
+}

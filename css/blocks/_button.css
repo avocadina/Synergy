@@ -1,0 +1,49 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: var(--btn-trs);
+}
+
+.btn--checklist {  
+    justify-content: flex-end; 
+    border: 1px solid #8dff65;
+    padding: 16px 25px;
+    width: 300px;
+    height: 68px;
+    background: #8dff65;
+}
+
+.btn--specialists {
+    justify-content: flex-end; 
+    border: 1px solid #8dff65;
+    padding: 16px 25px;
+    width: 360px;
+    height: 68px;
+    background: #8dff65;
+}
+
+.btn--cta {
+    width: 300px;
+    height: 68px;
+    background: #176dee;
+}
+
+
+@media (any-hover: hover) {
+    .btn--with-vector:hover .link-reset svg {
+        transform: translateX(12px);
+    }
+
+    .btn--vector:hover {
+        transform: translateX(12px);
+    }
+
+    .btn--personal-service:hover .link-reset svg{
+        transform: translateX(12px) translateY(12px);
+    }
+}

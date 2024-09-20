@@ -1,0 +1,37 @@
+span {
+    display: block;
+}
+
+.span--64 {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 56%;
+    color: #8dff65;
+}
+
+.span--94 {
+    font-weight: 400;
+    font-size: 94px;
+    line-height: 38%;
+    color: #8dff65;
+}
+
+.number__span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.span--employee {
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.span--blue-title {
+    color: #0e6eff;
+    max-width: min-content;
+}
+

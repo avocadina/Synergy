@@ -1,0 +1,46 @@
+<svg width="1920" height="249" viewBox="0 0 1920 249" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="mask0_576_32975" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="249">
+    <rect width="1920" height="249" fill="#2F2F35" />
+  </mask>
+  <g mask="url(#mask0_576_32975)">
+    <g opacity="0.4" filter="url(#filter0_f_576_32975)">
+      <ellipse cx="-88" cy="403.329" rx="668" ry="487.204" fill="#8DFF65" />
+    </g>
+    <g opacity="0.4" filter="url(#filter1_f_576_32975)">
+      <ellipse cx="181" cy="471.887" rx="459" ry="334.77" fill="#8DFF65" />
+    </g>
+    <g opacity="0.4" filter="url(#filter2_f_576_32975)">
+      <ellipse cx="1862" cy="548.469" rx="459" ry="334.77" fill="#8DFF65" />
+    </g>
+    <path d="M1081.53 410.163C1380.89 410.163 1623.56 233.277 1623.56 15.0782C1623.56 -203.121 1380.89 -380.006 1081.53 -380.006C782.175 -380.006 539.5 -203.121 539.5 15.0782C539.5 233.277 782.175 410.163 1081.53 410.163Z" stroke="#176DEE" stroke-width="0.5" stroke-miterlimit="10" />
+    <path d="M1081.53 409.852C1330.91 409.852 1533.08 262.494 1533.08 80.7184C1533.08 -101.057 1330.91 -248.415 1081.53 -248.415C832.146 -248.415 629.98 -101.057 629.98 80.7184C629.98 262.494 832.146 409.852 1081.53 409.852Z" stroke="#176DEE" stroke-width="0.5" stroke-miterlimit="10" />
+    <path d="M1081.53 408.919C1280.71 408.919 1442.18 291.227 1442.18 146.047C1442.18 0.867729 1280.71 -116.824 1081.53 -116.824C882.356 -116.824 720.891 0.867729 720.891 146.047C720.891 291.227 882.356 408.919 1081.53 408.919Z" stroke="#176DEE" stroke-width="0.5" stroke-miterlimit="10" />
+    <path d="M1350.18 234.244C1367.22 126.195 1260.87 28.5357 1112.63 16.1158C964.394 3.69583 830.411 81.2186 813.372 189.268C796.333 297.317 902.689 394.976 1050.93 407.396C1199.16 419.816 1333.14 342.293 1350.18 234.244Z" stroke="#176DEE" stroke-width="0.5" stroke-miterlimit="10" />
+    <path d="M1092.12 407.726C1191.17 403.448 1266.72 341.449 1260.85 269.247C1254.98 197.045 1169.92 141.982 1070.86 146.26C971.805 150.538 896.262 212.537 902.131 284.739C908.001 356.941 993.06 412.004 1092.12 407.726Z" stroke="#176DEE" stroke-width="0.5" stroke-miterlimit="10" />
+    <g opacity="0.4" filter="url(#filter3_f_576_32975)">
+      <ellipse cx="2207.5" cy="-867.21" rx="668" ry="487.204" fill="#176DEE" />
+    </g>
+  </g>
+  <defs>
+    <filter id="filter0_f_576_32975" x="-1180" y="-507.875" width="2184" height="1822.41" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feGaussianBlur stdDeviation="212" result="effect1_foregroundBlur_576_32975" />
+    </filter>
+    <filter id="filter1_f_576_32975" x="-702" y="-286.883" width="1766" height="1517.54" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feGaussianBlur stdDeviation="212" result="effect1_foregroundBlur_576_32975" />
+    </filter>
+    <filter id="filter2_f_576_32975" x="979" y="-210.301" width="1766" height="1517.54" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feGaussianBlur stdDeviation="212" result="effect1_foregroundBlur_576_32975" />
+    </filter>
+    <filter id="filter3_f_576_32975" x="1115.5" y="-1778.41" width="2184" height="1822.41" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feGaussianBlur stdDeviation="212" result="effect1_foregroundBlur_576_32975" />
+    </filter>
+  </defs>
+</svg>

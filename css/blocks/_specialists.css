@@ -1,0 +1,145 @@
+.rab-group {
+    margin-top: var(--section-gap);
+}
+
+.rab-group__container {
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+
+    padding-bottom: 100px;
+    border-bottom: 1px solid #4d4d4f;
+}
+
+.rab-group__main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 120px;
+}
+
+.rab-group__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+}
+
+.rgc__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+
+    max-width: calc(50% - 34px);
+}
+
+.rgc__subtitle {
+    color: #a6a6b5;
+}
+
+.rgc__title {
+    line-height: 1.1;
+}
+
+
+.rab-group__image {
+    position: relative;
+
+    background: url('../../img/rab-group/elipse.png') no-repeat center;
+
+    width: max-content;
+    padding: 0 0 33px 273px;
+}
+
+.rgi__ameba-v {
+    position: absolute;
+    top: 96px;
+    left: 58px;
+    z-index: -2;
+}
+
+.rgi__ameba-n {
+    position: absolute;
+    left: 107px;
+    top: 100px;
+    z-index: -3;
+}
+
+.rgi__svg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 10;
+}
+
+.rgi__list {
+    padding: 30px 73px 237px 20px;
+    position: relative;
+}
+
+.employee-list__mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+.employee-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 180px;
+    z-index: 10;
+}
+
+.employee {
+    width: max-content;
+}
+
+.rgi__ameba-v {
+    animation: 30s linear 0s normal infinite ameba-v;
+}
+
+.rgi__ameba-n {
+    animation: 10s linear 0s normal infinite ameba-n;
+}
+
+@keyframes ameba-n {
+    0% {
+        transform: rotate(0deg);
+    }    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes ameba-n {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes ameba-v {
+    0% {
+        transform: rotate(0deg);
+    }    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes ameba-v {
+    0% {
+        transform: rotate(0deg);
+    }    
+    100% {
+        transform: rotate(360deg);
+    }
+}
