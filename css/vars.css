@@ -8,5 +8,6 @@
     --container-offset: 15px;
     --section-gap: 100px;
 
-    --btn-trs: transform 0.3s ease; 
+    --btn-trs: transform 0.3s ease;
+    --card-trs: transform 0.3s ease, background-color 0.3s ease;
 }

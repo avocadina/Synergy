@@ -12,6 +12,7 @@
 .personal__services {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    gap: 1px;
 }
 
 .personal__service {
@@ -21,9 +22,11 @@
 .p-service__card {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: stretch;
+    gap: 97px;
     outline: 1px solid #36363c;
+
+    transition: var(--card-trs);
 
     padding: 20px;
     position: relative;
@@ -36,6 +39,7 @@
     line-height: 143%;
     text-transform: uppercase;
     color: #fff;
+    height: 90px;
 }
 
 .ps-card__content {
@@ -47,6 +51,20 @@
 
 .psc-content__image svg {
     display: block;
+    background-color: #2F2F35;
+    background-size: 72px 72px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.problem-svg1 {
+    width: 72px;
+    height: 72px;
+    padding: 5px 9px 9px;
+}
+
+.psc-content__image svg rect,
+.psc-content__image svg path {
+    transition: stroke 0.3s ease;
 }
 
 .personal__heading {
@@ -57,4 +75,21 @@
 .personal__heading .title--48::before {
     content: 'Индивидуальные';
     color: #0e6eff;
+}
+
+@media (any-hover: hover) {
+    .p-service__card:hover {
+        outline: inherit;
+        background-color: #176DEE;
+    }
+
+    .p-service__card:hover svg {
+        background-color: inherit;
+    }
+
+    .p-service__card:hover svg path,
+    .p-service__card:hover svg circle,
+    .p-service__card:hover svg rect {
+        stroke: #ffffff;
+    }
 }
