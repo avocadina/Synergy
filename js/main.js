@@ -4,9 +4,7 @@ const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('slideFromLeft');
-        } else {
-            entry.target.classList.remove('slideFromLeft');
-        }
+        };
     });
 });
 

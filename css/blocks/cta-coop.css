@@ -2,6 +2,7 @@
     margin-top: var(--section-gap);
     background: url('../../img/cta-coop/bg.png') no-repeat right bottom,
     #8dff65;
+    transform: translateX(-100%);
 }
 
 .cta__container {
