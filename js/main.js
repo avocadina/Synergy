@@ -43,7 +43,6 @@ if (slider) {
 
         if (slider.style.marginLeft >= 0 + 'px') {
             slider.style.marginLeft = '0px';
-
         }
     });
 }
