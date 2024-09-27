@@ -1,0 +1,75 @@
+.cta-calculation {
+    margin-top: 100px;
+    transform: translateX(-100%);
+}
+
+.calculation__container {
+    padding: 36px 0;
+    background-color: #176DEE;
+}
+
+.calculation__content {
+    display: flex;
+    align-items: stretch;
+    gap: 43px;
+}
+
+.calculation__benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-left: 20px;
+}
+
+.calculation__item:not(:last-of-type) {
+    border-bottom: 1px solid #a5c6f9;
+    padding-bottom: 37px;
+}
+
+.calculation__item:nth-of-type(2) {
+    padding-top: 31px;
+}
+
+.calculation__item:last-of-type {
+    padding-top: 34px;
+}
+
+.calculation__card {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+
+.cal-card__image svg {
+    display: block;
+    width: 86px;
+    height: 86px;
+}
+
+.cal-card__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.cal-card__par {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 131%;
+    color: #fff;
+}
+
+.calculation__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 546px;
+}
+
+.calculation__form .title--48 {
+    color: #fff;
+}

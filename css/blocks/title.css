@@ -33,6 +33,15 @@
     color: #fff;
 }
 
+.title--36 {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 58%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
 .title--44 {
     font-weight: 300;
     font-size: 44px;

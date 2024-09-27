@@ -13,6 +13,12 @@
     color: #fff;
 }
 
+.entrust__heading .title--48::before {
+    content: 'доверьте';
+
+    color: #0E6EFF;
+}
+
 .entrust__list {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -41,6 +47,7 @@
 .entrust__item--empty article {
     outline: none;
     align-items: flex-start;
+    height: min-content;
     gap: 30px;
 }
 

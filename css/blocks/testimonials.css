@@ -1,0 +1,97 @@
+.testimonials {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.testimonials__container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow-x: hidden;
+    gap: 40px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.testimonials__heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.testimonials__heading .title--48 {
+    color: #fff;
+}
+.testimonials__heading .title--48 span::before {
+    content: 'рекомендуют';
+    color: #8dff65;
+}
+
+.slider__buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.testimonials__list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.slider {
+    transition: var(--slider-trs);
+    width: max-content;
+}
+
+.testimonials__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 30px 32px 86px;
+    border: 1px solid #4d4d4f;
+
+    width: 356px;
+    height: 406px;
+}
+
+.test-item__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+.test-item__heading .title--18 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    color: #fff;
+}
+.test-item__heading .title--16 {
+    text-transform: uppercase;
+    color: #8dff65;
+}
+
+.test-item__par {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    text-align: justify;
+    color: #fff;
+    width: fit-content;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+    display: -webkit-box;
+    overflow: hidden;
+    line-clamp: 8;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+}
+
+.test-item__button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

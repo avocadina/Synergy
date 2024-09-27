@@ -10,5 +10,6 @@
 
     --btn-trs: transform 0.3s ease;
     --card-trs: transform 0.3s ease, background-color 0.3s ease,
-     outline 0.3s ease, stroke 0.3s ease;
+     outline 0.3s ease, stroke 0.3s ease, z-index 0.5s ease-out;
+    --slider-trs: transform 0.3s ease, margin 0.3s ease;
 }

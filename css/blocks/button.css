@@ -27,6 +27,30 @@
     background: #8dff65;
 }
 
+.btn--calculator {
+    justify-content: center; 
+    padding: 13px 83px;
+    width: max-content;
+}
+
+.btn--calculator__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+
+    transition: transform 0.3s ease;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 117%;
+    text-align: center;
+    color: #202023;
+}
+
+.btn--calculator__link svg {
+    transition: transform 0.3s ease;
+}
+
 .btn--specialists--pad-sm {
     padding: 12px 25px;
 }
@@ -37,6 +61,19 @@
     background: #176dee;
 }
 
+.btn--testimonials {
+    background-color: #176dee;
+    padding: 15px;
+}
+
+.btn--testimonials svg {
+    display: block;
+
+}
+
+.svg-grey svg path {
+    stroke: #A6A6B5;
+}
 
 @media (any-hover: hover) {
     .btn--with-vector:hover .link-reset svg {
@@ -45,5 +82,12 @@
 
     .btn--vector:hover {
         transform: translateX(12px);
+    }
+
+    .prev:hover svg path {
+        stroke: #176DEE;
+    }
+    .next:hover svg path {
+        stroke: #176DEE;
     }
 }

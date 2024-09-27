@@ -9,7 +9,7 @@
 @import url("./blocks/logo.css");
 @import url("./blocks/title.css");
 @import url("./blocks/span.css");
-/* animtions */
+/* animations */
 @import url("./blocks/animations.css");
 
 /* index */
@@ -25,3 +25,5 @@
 @import url('./blocks/cta-coop.css');
 @import url('./blocks/personal-sevices.css');
 @import url('./blocks/entrust.css');
+@import url('./blocks/cta-calculation.css');
+@import url('./blocks/testimonials.css');
