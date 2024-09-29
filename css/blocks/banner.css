@@ -1,0 +1,36 @@
+.banner {
+    margin-bottom: 50px;
+}
+
+.banner__container {
+    display: flex;
+    align-items: flex-start;
+    gap: 105px;
+    padding-top: 50px;
+    border-top: 5px solid #8dff65;
+}
+
+.banner__image svg {
+    display: block;
+    object-fit: contain;
+}
+
+.banner__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.banner__content .title--48 {
+    color: #fff;
+}
+
+.banner__par {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+
+    max-width: 70%;
+}

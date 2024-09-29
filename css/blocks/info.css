@@ -1,5 +1,5 @@
 .info {
-    margin-top: 100px;
+    margin-top: var(--section-gap);
 }
 
 .info__list {

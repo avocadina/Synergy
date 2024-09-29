@@ -1,0 +1,38 @@
+.associations {
+    margin-bottom: var(--section-gap);
+}
+
+.associations__list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    gap: 24px;
+    padding: 67px 0;
+    outline: 1px solid #36363c;
+}
+
+.associations__item {
+    grid-column: 4 span;
+}
+
+.associations__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+}
+
+.associations__image {
+    display: block;
+    object-fit: contain;
+}
+
+.association {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 131%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #a6a6b5;
+}

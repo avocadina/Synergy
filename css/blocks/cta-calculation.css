@@ -1,5 +1,5 @@
 .cta-calculation {
-    margin-top: 100px;
+    margin-top: var(--section-gap);
     transform: translateX(-100%);
 }
 

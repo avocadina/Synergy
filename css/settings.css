@@ -13,7 +13,9 @@
     font-family: var(--font-family);
     overflow-x: hidden;
 
-    background-color: #202023;
+    background: url('../img/page-background.svg') no-repeat bottom center,
+    #202023;
+    background-size: contain;
 }
 
 .container {
