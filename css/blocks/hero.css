@@ -68,7 +68,7 @@
 
 .hi__text {
     font-weight: 400;
-    font-size: 18px;
+    font-size: clamp(0.813rem, 0.723rem + 0.45vw, 1.125rem);
     line-height: 144%;
     text-transform: uppercase;
     color: #fff;
